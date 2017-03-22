@@ -1,0 +1,36 @@
+{
+  "name": "ember-cli-babili",
+  "version": "0.0.0",
+  "description": "Minify javascript using babili",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ember-addon",
+    "uglify",
+    "minifier",
+    "minification"
+  ],
+  "author": "Gil Pedersen <gpdev@gpost.dk>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "babel-preset-babili": "0.0.12",
+    "broccoli-babel-transpiler": "^6.0.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "ember-addon": {
+    "before": "broccoli-asset-rev"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanongil/ember-cli-babili.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kanongil/ember-cli-babili/issues"
+  },
+  "homepage": "https://github.com/kanongil/ember-cli-babili#readme"
+}
