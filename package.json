@@ -27,10 +27,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kanongil/ember-cli-babili.git"
+    "url": "git+https://github.com/ember-cli/ember-cli-babili.git"
   },
   "bugs": {
-    "url": "https://github.com/kanongil/ember-cli-babili/issues"
+    "url": "https://github.com/ember-cli/ember-cli-babili/issues"
   },
-  "homepage": "https://github.com/kanongil/ember-cli-babili#readme"
+  "homepage": "https://github.com/ember-cli/ember-cli-babili#readme"
 }
