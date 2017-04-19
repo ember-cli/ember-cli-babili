@@ -1,5 +1,7 @@
 # Ember-cli-babili
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ember-cli/ember-cli-babili.svg)](https://greenkeeper.io/)
+
 Minify javascript using babili in Ember-CLI
 
 ## Install
