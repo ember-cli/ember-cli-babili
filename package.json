@@ -4,7 +4,7 @@
   "description": "Minify javascript using babili",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "qunit tests/**/*-test.js"
   },
   "keywords": [
     "ember-addon",
@@ -24,7 +24,11 @@
   "ember-addon": {
     "before": "broccoli-asset-rev"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-plugin-qunit": "^3.0.0",
+    "qunit-eslint": "^1.0.0",
+    "qunitjs": "^2.3.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ember-cli/ember-cli-babili.git"
