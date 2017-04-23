@@ -15,11 +15,7 @@
   "author": "Gil Pedersen <gpdev@gpost.dk>",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "babel-core": "^6.24.1",
-    "babel-preset-babili": "0.0.12",
-    "broccoli-plugin": "^1.3.0",
-    "symlink-or-copy": "^1.1.8",
-    "walk-sync": "^0.3.1"
+    "broccoli-babili": "^0.1.0"
   },
   "engines": {
     "node": ">= 4"
@@ -28,7 +24,6 @@
     "before": "broccoli-asset-rev"
   },
   "devDependencies": {
-    "broccoli-test-helper": "^1.1.0",
     "co": "^4.6.0",
     "eslint-plugin-qunit": "^3.0.0",
     "qunit-eslint": "^1.0.0",
